@@ -21,7 +21,7 @@ Conteúdo:
    - **Mão na Massa**: Estrutura de um programa, **comandos nativos** (**javac, java, java**p), Método encapsulamento.Main e **Entry Point**.
    - **Saída de Dados**: O comando println e gerenciamento de arquivos.
 
-     - **Código 01**: [encapsulamento.Main.java](https://github.com/QActions87/curso-desenvolvimento-java/blob/main/estrutura-programa-java/src/olamundo/empresa.Main.java)
+     - **Código 01**: [encapsulamento.Main.java](https://github.com/SamuraiQAction87/curso-desenvolvimento-java/blob/main/estrutura-programa-java/src/olamundo/Main.java)
 
 
 #
