@@ -68,7 +68,7 @@ Conteúdo:
 ## Hands-on:
     
    - **Código 07**: [**Média Aritmética**](https://github.com/Motatom0101/curso-desenvolvimento-java/blob/main/exercicios-conhecendo-a-base/src/media/MediaAritmetica.java)
-      - **Função**: Programa que captura 3 notas digitadas pelo usuário, **efetua a soma**, depois **calcula a média aritmética e a imprime.
+      - **Função**: Programa que captura 3 notas digitadas pelo usuário, **efetua a soma**, depois **calcula a média aritmética e a imprime**.
 #
 
    - **Código 08**: [**Conversão de Anos em Dias**](https://github.com/Motatom0101/curso-desenvolvimento-java/blob/main/exercicios-conhecendo-a-base/src/idade/DiasDeIdade.java)
