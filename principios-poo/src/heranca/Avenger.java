@@ -1,4 +1,5 @@
 package heranca;
 
-public class Avenger {
+public interface Avenger {
+
 }
