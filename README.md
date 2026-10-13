@@ -300,7 +300,9 @@ Conteúdo:
 
 #
 ### **ENCAPSULAMENTO:**
-
+   #
+   O encapsulamento consiste em agrupar dados e comportamentos em uma mesma classe, protegendo o acesso direto ao estado interno e permitindo modificações apenas de forma controlada e segura.
+   
    **Classe Carro**: Trabalhando no pilar de Encapsulamento da POO, foi criada a classe Carro com os atributos privados para atender ao encapsulamento. Deste modo, os atributos só podem ser acessados na mesma classe. Então, para que outras classes tenham acesso aos atributos motor, volante e pedais, que agora estão protegidos [ou privados], os inicializei no construtor da classe Carro, para que outras classes possam ter acesso por meio de objetos instanciados a partir dela. Na classe Carro, também criei métodos como ligarCarro, acelerar e frear, além dos Getters e Setters, que são formas controladas e seguras de, respectivamente, acessar e modificar os atributos. Também temos o atributo airbag que, como deve ser acionado automaticamente a partir de algum gatilho — que no meu caso foi a detecção de uma colisão —, é tratado apenas internamente:
 
    - **Código 47**: [Carro.java](https://github.com/SamuraiQAction87/curso-desenvolvimento-java/blob/main/principios-poo/src/encapsulamento/Carro.java)
