@@ -317,18 +317,27 @@ Conteúdo:
 
 
 #
-#
-### **ENCAPSULAMENTO:**
+#  
+### **ABSTRAÇÃO:** 
    #
-   **Classe Carro**:     
+   A abstração está relacionada com o encapsulamento, porque tem a ver com **esconder ou exibir detalhes de implementação de um objeto**, para que o **código** seja **mais legível e fácil** de ser **acessado e modificado**.
+   
+   **Classe TV**: Na classe TV temos **3 atributos privador**  "boolean **ligada**", "int **volume**" e "int **canal**". como **1º método** da classe temos "**LigarDesligar**", que tem o **estado atual do atributo 'ligarda' recebendo a sua negação**. Ou seja, se a TV estiver desligada, ao invocarmos o método, o atributo recebe a sua negação, sendo ligado e vice-versa. Após isso, temos um '**if ternário**' para **imprimir** a palavra **"ligada"** ou **"desligada"**, de acordo com o estado do atributo. Em seguida, temos outros métodos para interagir com os demais atributos, como aumentar volume, diminuir volume e mudar de canal.     
    
      
-   - **Código 50**: []()
-     
-     
-   - **Código 51**: []()
+   - **Código 50**: [TV.java](https://github.com/SamuraiQAction87/curso-desenvolvimento-java/blob/main/principios-poo/src/abstracao/TV.java)
    
+   #
+   **Classe ControleRemoto**: Na classe ControleRemoto, começo declarando o atributo tv do tipo de referência TV, utilizando o modificador de acesso private — o que indica que ele só poderá ser acessado diretamente pela própria classe — e o modificador final, que garante que o atributo se tornará uma constante de referência após sua inicialização no construtor. Assim, o valor da variável tv só pode ser atribuído uma única vez: quando o controle remoto é associado a uma TV específica no momento em que é instanciado, ele nunca mais poderá apontar para outra TV durante todo o ciclo de vida daquele objeto.
+
+Por fim, criei métodos que representam os botões Power, Diminuir Volume e Aumentar Volume. No corpo desses métodos, invoco os comportamentos específicos para cada função diretamente a partir do objeto tv, com base na classe de referência TV. Dessa forma, construo camadas de abstração que deixam o código muito mais legível e organizado:   
+     
+   - **Código 51**: [ControleRemoto.java](https://github.com/SamuraiQAction87/curso-desenvolvimento-java/blob/main/principios-poo/src/abstracao/ControleRemoto.java)
+
+   #
+   **Classe Main**: Na classe Main, temos o entry point que permite executar a classe. Com isso, instanciei o objeto minhaTV a partir da classe TV. Em seguida, chamei os métodos "ligarDesligar", "aumentarVolume", "reduzirVolume" e "trocarCanal" no objeto instanciado:
    
+   - **Código 52**: [Main.java](https://github.com/SamuraiQAction87/curso-desenvolvimento-java/blob/main/principios-poo/src/abstracao/Main.java)
 
 Loading...
 
