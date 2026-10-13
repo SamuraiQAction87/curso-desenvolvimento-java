@@ -296,6 +296,38 @@ Conteúdo:
  - Teoria: Abstração;
  - A Abstração com o exemplo da TV;
  - Prática: Abstração.
+
+#
+#
+### **ENCAPSULAMENTO:**
+
+   **Classe Carro**: Trabalhando no pilar de Encapsulamento da POO, foi criada a classe Carro com os atributos privados para atender ao encapsulamento. Deste modo, os atributos só podem ser acessados na mesma classe. Então, para que outras classes tenham acesso aos atributos motor, volante e pedais, que agora estão protegidos [ou privados], os inicializei no construtor da classe Carro, para que outras classes possam ter acesso por meio de objetos instanciados a partir dela. Na classe Carro, também criei métodos como ligarCarro, acelerar e frear, além dos Getters e Setters, que são formas controladas e seguras de, respectivamente, acessar e modificar os atributos. Também temos o atributo airbag que, como deve ser acionado automaticamente a partir de algum gatilho — que no meu caso foi a detecção de uma colisão —, é tratado apenas internamente:
+
+   - **Código 47**: [Carro.java](https://github.com/SamuraiQAction87/curso-desenvolvimento-java/blob/main/principios-poo/src/encapsulamento/Carro.java)
+ 
+   #
+   **Classe Main:**  Aqui, temos o entry point 'main' e a instância da classe Carro com o identificador 'carro'. A partir dela, chamei os métodos ligarCarro, acelerar, depois frear. Em seguida, foi chamado o Setter setVolante para modificar a mensagem inpressa. Por fim dentro de 'System.out.println', chamei os Getters a partir do objeto 'carro':
+
+   - **Código 48**: [Main.java](https://github.com/SamuraiQAction87/curso-desenvolvimento-java/blob/main/principios-poo/src/encapsulamento/Main.java)
+  
+   #  
+   **Classe Motor:** Não foi desenvolvida, pois apenas serviu para ser criado o **atributo motor** do **"tipo de referência Motor"**, sendo **inicializado como objeto dentro do construtor** da classe Carro: 
+  
+   - **Código 49**: [Motor.java](https://github.com/SamuraiQAction87/curso-desenvolvimento-java/blob/main/principios-poo/src/encapsulamento/Motor.java)
+
+
+#
+#
+### **ENCAPSULAMENTO:**
+   #
+   **Classe Carro**:     
+   
+     
+   - **Código 50**: []()
+     
+     
+   - **Código 51**: []()
+   
    
 
 Loading...
