@@ -345,7 +345,10 @@ Por fim, criei métodos que representam os botões Power, Diminuir Volume e Aume
 #
 #
 ### **HERANÇA:**
+   #
+   A herança é o mecanismo que permite a uma classe filha reutilizar atributos e comportamentos de uma classe pai, promovendo o reaproveitamento de código e a hierarquia entre objetos.
 
+   
 Loading...
 
 
