@@ -191,7 +191,7 @@ Por fim, comentei o código, da parte onde acessei e modifiquei os elementos at�
 ## PROGRAMAÇÃO ORIENTADA A OBJETOS:
 
 
-**Artigo 03:** [JAVA — **Programação Orientada a Objetos-I**](https://medium.com/@atom.freedom/java-programa%C3%A7%C3%A3o-orientada-a-objetos-fb842783fdcb)
+**Artigo 04:** [JAVA — **Programação Orientada a Objetos-I**](https://medium.com/@atom.freedom/java-programa%C3%A7%C3%A3o-orientada-a-objetos-fb842783fdcb)
 
 Conteúdo:
 
@@ -237,7 +237,7 @@ Conteúdo:
   
 #
 #
-**Artigo 04:** [JAVA — **Programação Orientada a Objetos-II**](https://medium.com/@atom.freedom/java-programa%C3%A7%C3%A3o-orientada-a-objetos-ii-f8268bbdd7c9)
+**Artigo 05:** [JAVA — **Programação Orientada a Objetos-II**](https://medium.com/@atom.freedom/java-programa%C3%A7%C3%A3o-orientada-a-objetos-ii-f8268bbdd7c9)
 
 Conteúdo:
 
@@ -276,7 +276,7 @@ Conteúdo:
 ## PILARES DA ORIENTADA A OBJETOS:
 
 
-**Artigo 05:** [JAVA — Pilares da Orientação a Objetos: **Encapsulamento e Abstração.**](https://medium.com/@atom.freedom/java-pilares-da-orienta%C3%A7%C3%A3o-a-objetos-encapsulamento-e-abstra%C3%A7%C3%A3o-d554f831e48b)
+**Artigo 06:** [JAVA — Pilares da Orientação a Objetos: **Encapsulamento e Abstração.**](https://medium.com/@atom.freedom/java-pilares-da-orienta%C3%A7%C3%A3o-a-objetos-encapsulamento-e-abstra%C3%A7%C3%A3o-d554f831e48b)
 
 Conteúdo:
 
