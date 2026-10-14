@@ -10,6 +10,11 @@ public abstract class SuperHeroi {
         this.traje = traje;
         this.superPoderes = superPoderes;
     }
+    // Construtor padrão declarado,
+    // após ter sido perdido com a criação do construtor com parâmetros:
+    public SuperHeroi() {
+
+    }
 
     // Metodos:
     public abstract void usarSuperPoder(int index);
