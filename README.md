@@ -324,7 +324,7 @@ Conteúdo:
    #
    A abstração está relacionada com o encapsulamento, porque tem a ver com **esconder ou exibir detalhes de implementação de um objeto**, para que o **código** seja **mais legível e fácil** de ser **acessado e modificado**.
    
-   **Classe TV**: Na classe TV temos **3 atributos privador**  "boolean **ligada**", "int **volume**" e "int **canal**". como **1º método** da classe temos "**LigarDesligar**", que tem o **estado atual do atributo 'ligarda' recebendo a sua negação**. Ou seja, se a TV estiver desligada, ao invocarmos o método, o atributo recebe a sua negação, sendo ligado e vice-versa. Após isso, temos um '**if ternário**' para **imprimir** a palavra **"ligada"** ou **"desligada"**, de acordo com o estado do atributo. Em seguida, temos outros métodos para interagir com os demais atributos, como aumentar volume, diminuir volume e mudar de canal.     
+   **Classe TV**: Na classe TV temos **3 atributos privador**  "boolean **ligada**", "int **volume**" e "int **canal**". como **1º método** da classe temos "**LigarDesligar**", que tem o **estado atual do atributo 'ligada' recebendo a sua negação**. Ou seja, se a TV estiver desligada, ao invocarmos o método, o atributo recebe a sua negação, sendo ligado e vice-versa. Após isso, temos um '**if ternário**' para **imprimir** a palavra **"ligada"** ou **"desligada"**, de acordo com o estado do atributo. Em seguida, temos outros métodos para interagir com os demais atributos, como aumentar volume, diminuir volume e mudar de canal.     
    
      
    - **Código 50**: [TV.java](https://github.com/SamuraiQAction87/curso-desenvolvimento-java/blob/main/principios-poo/src/abstracao/TV.java)
