@@ -1,7 +1,7 @@
 package heranca;
 
 // Classe HomemAranha sendo estendida da Super Classe:
-public class HomemAranha extends SuperHeroi {
+public class HomemAranha extends SuperHeroi implements Avenger {
 
     // Construtor com os mesmos parâmetros que o da S. Class + chamada ao construtor canônico:
     public HomemAranha(String traje, String[] superPoderes) {
@@ -11,6 +11,11 @@ public class HomemAranha extends SuperHeroi {
     // Implementando o method abstrado da classe pai:
     @Override
     public void usarSuperPoder(int index) {
-        System.out.println(super.usarSuperPoder(index));
+        System.out.println(superPoderes[index]);
+    }
+
+    @Override
+    public boolean isLeader() {
+        return false;
     }
 }
