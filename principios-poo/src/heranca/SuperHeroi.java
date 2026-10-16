@@ -1,6 +1,6 @@
 package heranca;
 
-public abstract class SuperHeroi {
+public abstract class SuperHeroi implements Avenger{
     // Atributos:
     protected String traje;
     protected String[] superPoderes;
@@ -22,5 +22,10 @@ public abstract class SuperHeroi {
     // Metodo Get para acessar o traje:
     public String getTraje() {
         return traje;
+    }
+
+    @Override
+    public boolean isLeader() {
+        return false;
     }
 }
