@@ -8,6 +8,7 @@ public class Main {
                 new HomemDeFerro("Roupa Vermelha super resistente.", new String[]{"Voar."}),
                 new Tempestade("Branca.", new String[]{"Controlar o tempo."}),
                 new ViuvaNegra("Preta.", new String[]{"Lançar Teia."}),
+                // Não dá para instanciar esta classe porque é abstract:
                 // new SuperHeroi("Traje invisível", new String[]{"Bênção e maldição."})
         };
 

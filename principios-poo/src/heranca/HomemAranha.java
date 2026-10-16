@@ -11,6 +11,6 @@ public class HomemAranha extends SuperHeroi {
     // Implementando o method abstrado da classe pai:
     @Override
     public void usarSuperPoder(int index) {
-        System.out.println(superPoderes[index]);
+        System.out.println(super.usarSuperPoder(index));
     }
 }
