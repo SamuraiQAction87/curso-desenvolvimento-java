@@ -15,7 +15,7 @@ public class Main {
                 trabalhador.trabalhar();
                 // Verificando se a instância é da classe Cozinheiro:
                 if (trabalhador instanceof Cozinheiro)
-                    // Se for Cozinheiro, será feito o casting esplícito para
+                    // Se for Cozinheiro, será feito o casting explícito para
                     // termos acesso ao metodo 'temperarComida':
                     ((Cozinheiro)trabalhador).temperarComida();
             }
