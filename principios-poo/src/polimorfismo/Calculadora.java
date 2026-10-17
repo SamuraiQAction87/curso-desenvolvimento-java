@@ -8,7 +8,8 @@ public class Calculadora {
         System.out.println(soma(3.33, 6.66));
     }
 
-    // Metodos com o mesmo nome, mas assinaturas diferentes:
+    // Metodos com o mesmo nome, mas assinaturas diferentes.
+    // Exemplo de (sobrecarga):
     static int soma(int a, int b) {
         return a + b;
     }
