@@ -2,14 +2,48 @@ package polimorfismo;
 
 public class Main {
     public static void main(String[] args) {
-        // Instanciando os objetos:
-        Trabalhador programador = new Programador();
-        Trabalhador cozinheiro = new Cozinheiro();
-        Trabalhador medico = new Medico();
-
-        // Chamando os metodos a partir dos objetos:
-        programador.trabalhar();
-        cozinheiro.trabalhar();
-        medico.trabalhar();
+        // Array com instâncias de trabalhadores:
+        Trabalhador[] trabalhadores = {
+                new Programador(), new Cozinheiro(), new Medico()
+        };
+        // Chamando o metodo passando o array como argumento:
+        trabalhar(trabalhadores);
     }
+        // Metodo 'trabalhar' que será chamado no 'main':
+        private static void trabalhar(Trabalhador[] trabalhadores) {
+            for (Trabalhador trabalhador : trabalhadores) {
+                trabalhador.trabalhar();
+                if (trabalhador instanceof Cozinheiro)
+                    ((Cozinheiro)trabalhador).temperarComida();
+            }
+        }
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
