@@ -13,7 +13,10 @@ public class Main {
         private static void trabalhar(Trabalhador[] trabalhadores) {
             for (Trabalhador trabalhador : trabalhadores) {
                 trabalhador.trabalhar();
+                // Verificando se a instância é da classe Cozinheiro:
                 if (trabalhador instanceof Cozinheiro)
+                    // Se for Cozinheiro, será feito o casting esplícito para
+                    // termos acesso ao metodo 'temperarComida':
                     ((Cozinheiro)trabalhador).temperarComida();
             }
         }
