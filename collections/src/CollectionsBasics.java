@@ -11,7 +11,7 @@ public class CollectionsBasics {
         // Invicando o metodo 'add' a paritr do objeto:
         nomesArrayList.add("1");
         nomesArrayList.add("2");
-        nomesArrayList.add("3");
+        nomesArrayList.add("3"); // Ordem de impressão [1, 2, 3]
 
         //Imprimindo a lista:
         System.out.println(nomesArrayList);
