@@ -25,6 +25,8 @@ public class CollectionsBasics {
         nomesArrayList.set(0, "0");
         nomesArrayList.set(1, "1");
         nomesArrayList.set(2, "2");
+        // Adicionando mais um elemento ao final:
+        nomesArrayList.add("3");
         // Imprimindo:
         System.out.println("==================================");
         System.out.println(nomesArrayList); // Saída [0, 1, 2]
