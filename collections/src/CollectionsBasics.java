@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Iterator;
 import java.util.List;
 
 public class CollectionsBasics {
@@ -49,12 +50,20 @@ public class CollectionsBasics {
         //System.out.println(nomesArrayList); // Saída [0, 2]
 
         // Percorrendo a lista com o For-each
-        System.out.println("================Percorrido com For-each==================");
+        System.out.println("================[Percorrido com For-each]==================");
 
         for (String nome: nomesArrayList) {
             System.out.println(nome);
         }
 
+        // Percorrendo a lista com o Iterator
+        System.out.println("================[Percorrido com Iterator]==================");
+
+        Iterator<String> it = nomesArrayList.iterator();
+        while (it.hasNext()) {
+            String itemAtual = it.next();
+            System.out.println(itemAtual);
+        }
     }
 }
 
