@@ -31,10 +31,16 @@ public class CollectionsBasics {
         System.out.println("==================================");
         System.out.println(nomesArrayList); // Saída [0, 1, 2, 3]
 
-        // Removendo elemento com o 'remove':
+        // Removendo elemento por meio do índice com o 'remove':
         nomesArrayList.remove(1);
         // Imprimindo:
         System.out.println("==================================");
         System.out.println(nomesArrayList); // Saída [0, 2, 3]
+
+        // Removendo elemento por meio do valor direto com o 'remove':
+        nomesArrayList.remove("3");
+        // Imprimindo:
+        System.out.println("==================================");
+        System.out.println(nomesArrayList); // Saída [0, 2]
     }
 }
