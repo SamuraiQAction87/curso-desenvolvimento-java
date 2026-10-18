@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class CollectionsBasics {
@@ -22,25 +23,29 @@ public class CollectionsBasics {
         System.out.println(nomesArrayList.get(1));
 
         // Usando o set para alterar elementos a partir de suas posições:
-        nomesArrayList.set(0, "0");
-        nomesArrayList.set(1, "1");
-        nomesArrayList.set(2, "2");
+        nomesArrayList.set(0, "3");
+        nomesArrayList.set(1, "2");
+        nomesArrayList.set(2, "1");
         // Adicionando mais um elemento ao final:
-        nomesArrayList.add("3");
+        nomesArrayList.add("0");
         // Imprimindo:
         System.out.println("==================================");
-        System.out.println(nomesArrayList); // Saída [0, 1, 2, 3]
+        System.out.println(nomesArrayList); // Saída [3, 2, 1, 0]
 
         // Removendo elemento por meio do índice com o 'remove':
-        nomesArrayList.remove(1);
+        //nomesArrayList.remove(1);
         // Imprimindo:
         System.out.println("==================================");
-        System.out.println(nomesArrayList); // Saída [0, 2, 3]
+
+        // Usando o metodo static 'sort' da classe Collections para ordenar a lista:
+        Collections.sort(nomesArrayList);
+        // Imprimindo a lista ordenada:
+        System.out.println(nomesArrayList); // Saída [0, 1, 2, 3]
 
         // Removendo elemento por meio do valor direto com o 'remove':
-        nomesArrayList.remove("3");
+        // nomesArrayList.remove("3");
         // Imprimindo:
-        System.out.println("==================================");
-        System.out.println(nomesArrayList); // Saída [0, 2]
+        //System.out.println("==================================");
+        //System.out.println(nomesArrayList); // Saída [0, 2]
     }
 }
