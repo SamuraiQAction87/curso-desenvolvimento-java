@@ -29,6 +29,12 @@ public class CollectionsBasics {
         nomesArrayList.add("3");
         // Imprimindo:
         System.out.println("==================================");
-        System.out.println(nomesArrayList); // Saída [0, 1, 2]
+        System.out.println(nomesArrayList); // Saída [0, 1, 2, 3]
+
+        // Removendo elemento com o 'remove':
+        nomesArrayList.remove(1);
+        // Imprimindo:
+        System.out.println("==================================");
+        System.out.println(nomesArrayList); // Saída [0, 2, 3]
     }
 }
