@@ -58,10 +58,14 @@ public class CollectionsBasics {
 
         // Percorrendo a lista com o Iterator
         System.out.println("================[Percorrido com Iterator]==================");
-
+        // O Iterator nasce antes do 1º elemento:
         Iterator<String> it = nomesArrayList.iterator();
+        // Verifica se na próxima posição tem elemento:
         while (it.hasNext()) {
+            // pula para a próxima posição, captura o valor
+            // e guarda na variável 'itemAtual':
             String itemAtual = it.next();
+            // Imprime o valor atual:
             System.out.println(itemAtual);
         }
     }
