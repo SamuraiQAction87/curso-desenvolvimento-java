@@ -47,5 +47,40 @@ public class CollectionsBasics {
         // Imprimindo:
         //System.out.println("==================================");
         //System.out.println(nomesArrayList); // Saída [0, 2]
+
+        // Percorrendo a lista com o For-each
+        System.out.println("================Percorrido com For-each==================");
+
+        for (String nome: nomesArrayList) {
+            System.out.println(nome);
+        }
+
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
