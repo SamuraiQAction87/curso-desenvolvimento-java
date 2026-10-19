@@ -97,6 +97,11 @@ public class CollectionsBasics {
         System.out.println(mapaDeUsuarios.get("ashem"));
         System.out.println(mapaDeUsuarios.get("tiago"));
 
+        // Alterando o valor do elemento buscando-o pela sua chave com o metodo 'put':
+        mapaDeUsuarios.put("tiago", "Tiago Mota");
+        // Impressão:
+        System.out.println(mapaDeUsuarios);
+
     }
 }
 
