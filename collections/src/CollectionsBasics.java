@@ -77,6 +77,11 @@ public class CollectionsBasics {
         List<String> listaConvertida = Arrays.asList(arrayDeNomes);
         // Imprimindo:
         System.out.println(listaConvertida);
+
+        // Convertendo lista em array:
+        String[] arrayConvertido = listaConvertida.toArray(new String[0]);
+        // Imprimindo:
+        System.out.println(Arrays.toString(arrayConvertido));
     }
 }
 
