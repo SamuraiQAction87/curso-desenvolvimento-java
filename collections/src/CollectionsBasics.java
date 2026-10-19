@@ -102,6 +102,12 @@ public class CollectionsBasics {
         // Impressão:
         System.out.println(mapaDeUsuarios);
 
+        //Removendo um dado pela sua chave com o metodo 'remove':
+        mapaDeUsuarios.remove("tiago");
+        // Impressão:
+        System.out.println(mapaDeUsuarios);
+
+
     }
 }
 
