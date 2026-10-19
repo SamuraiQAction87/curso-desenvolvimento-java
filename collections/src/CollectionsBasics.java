@@ -1,7 +1,4 @@
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Iterator;
-import java.util.List;
+import java.util.*;
 
 public class CollectionsBasics {
     public static void main(String[] args) {
@@ -73,6 +70,13 @@ public class CollectionsBasics {
         // Criando a lista:
         List<String> listaDeNomes = List.of("Ashem", "Yaacov", "Atom", "Tiago");
         System.out.println(listaDeNomes);
+
+        // Criando um array para convertê-lo em lista:
+        String[] arrayDeNomes = {"Ashem", "Yaacov", "Atom", "Tiago"};
+        // Convertendo array em lista:
+        List<String> listaConvertida = Arrays.asList(arrayDeNomes);
+        // Imprimindo:
+        System.out.println(listaConvertida);
     }
 }
 
