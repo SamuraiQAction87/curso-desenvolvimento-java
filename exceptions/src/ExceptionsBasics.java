@@ -20,12 +20,19 @@ public class ExceptionsBasics {
         try {
             // Simulação da exception 'IndexOutOfBoundsException':
             System.out.println(nomes.get(1));
-          // armazena a exception do tipo Exception na variável 'ex':
+            // Simulação da exception 'ArithmeticException':
+            int resultado = 10 / 0;
+
+          // armazena a exception do tipo IndexOutOfBoundsException na variável 'ex':
         } catch (IndexOutOfBoundsException ex) {
             // Acessando o objeto para imprimir o mesmo relatório verboso:
             // ex.printStackTrace();
             // Tratando a exceção com um erro amigável:
             System.out.println("O índice informado é inválido!");
+          // // armazena a exception do tipo ArithmeticException na variável 'ex':
+        } catch (ArithmeticException ex) {
+            // Tratando a exceção com um erro amigável:
+            System.out.println("Operação inválido!");
         }
     }
 }
