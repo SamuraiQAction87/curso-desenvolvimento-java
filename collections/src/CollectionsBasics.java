@@ -82,6 +82,17 @@ public class CollectionsBasics {
         String[] arrayConvertido = listaConvertida.toArray(new String[0]);
         // Imprimindo:
         System.out.println(Arrays.toString(arrayConvertido));
+
+        // Criando collection com HashMap, que é uma implementação da interface Map:
+        Map<String, String> mapaDeUsuarios = new HashMap<>();
+        // Inserindo os usuários com o 'put':
+        mapaDeUsuarios.put("ashem", "Ashem");
+        mapaDeUsuarios.put("yaacov", "Yaacov");
+        mapaDeUsuarios.put("aton", "Atom");
+        mapaDeUsuarios.put("tiago", "Tiago");
+        // Impressão:
+        System.out.println(mapaDeUsuarios);
+
     }
 }
 
