@@ -68,6 +68,11 @@ public class CollectionsBasics {
             // Imprime o valor atual:
             System.out.println(itemAtual);
         }
+
+        // Conversões entre Array e ArrayList.
+        // Criando a lista:
+        List<String> listaDeNomes = List.of("Ashem", "Yaacov", "Atom", "Tiago");
+        System.out.println(listaDeNomes);
     }
 }
 
