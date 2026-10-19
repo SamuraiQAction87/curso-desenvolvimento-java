@@ -103,10 +103,20 @@ public class CollectionsBasics {
         System.out.println(mapaDeUsuarios);
 
         //Removendo um dado pela sua chave com o metodo 'remove':
-        mapaDeUsuarios.remove("tiago");
+        // mapaDeUsuarios.remove("tiago");
         // Impressão:
-        System.out.println(mapaDeUsuarios);
+        // System.out.println(mapaDeUsuarios);
 
+        // Iterando sobre os elementos do mapa:
+        System.out.println("================[Iterando com For nos valores]==================");
+        for (String valor : mapaDeUsuarios.values()) {
+            System.out.println(valor);
+        }
+
+        System.out.println("================[Iterando com For nas chaves]==================");
+        for (String chave : mapaDeUsuarios.keySet()) {
+            System.out.println(chave);
+        }
 
     }
 }
