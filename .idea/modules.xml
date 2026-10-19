@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/collections/collections.iml" filepath="$PROJECT_DIR$/collections/collections.iml" />
       <module fileurl="file://$PROJECT_DIR$/estrutura-programa-java/estrutura-programa-java.iml" filepath="$PROJECT_DIR$/estrutura-programa-java/estrutura-programa-java.iml" />
       <module fileurl="file://$PROJECT_DIR$/estrutura_repeticao/estrutura_repeticao.iml" filepath="$PROJECT_DIR$/estrutura_repeticao/estrutura_repeticao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exceptions/exceptions.iml" filepath="$PROJECT_DIR$/exceptions/exceptions.iml" />
       <module fileurl="file://$PROJECT_DIR$/exercicios-conhecendo-a-base/exercicios-conhecendo-a-base.iml" filepath="$PROJECT_DIR$/exercicios-conhecendo-a-base/exercicios-conhecendo-a-base.iml" />
       <module fileurl="file://$PROJECT_DIR$/principios-poo/principios-poo.iml" filepath="$PROJECT_DIR$/principios-poo/principios-poo.iml" />
       <module fileurl="file://$PROJECT_DIR$/working-with-objects/working-with-objects.iml" filepath="$PROJECT_DIR$/working-with-objects/working-with-objects.iml" />
