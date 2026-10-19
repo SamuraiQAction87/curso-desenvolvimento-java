@@ -23,7 +23,9 @@ public class ExceptionsBasics {
           // armazena a exception do tipo Exception na variável 'ex':
         } catch (Exception ex) {
             // Acessando o objeto para imprimir o mesmo relatório verboso:
-            ex.printStackTrace();
+            // ex.printStackTrace();
+            // Tratando a exceção com um erro amigável:
+            System.out.println("O índice informado é inválido!");
         }
     }
 }
