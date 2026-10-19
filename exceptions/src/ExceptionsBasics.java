@@ -12,8 +12,11 @@ public class ExceptionsBasics {
         List<String> nomes = new ArrayList<>();
         // Adicionando O Nome à lista:
         nomes.add("Ashem");
-        // Imprimindo:
+        // Impresso com exito:
         System.out.println(nomes.getFirst());
+        // Simulação da exception 'IndexOutOfBoundsException':
+        System.out.println(nomes.get(1));
+
     }
 }
 
