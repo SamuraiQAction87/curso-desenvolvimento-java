@@ -93,6 +93,10 @@ public class CollectionsBasics {
         // Impressão:
         System.out.println(mapaDeUsuarios);
 
+        // Acessando elementos pelas chaves com metodo 'get':
+        System.out.println(mapaDeUsuarios.get("ashem"));
+        System.out.println(mapaDeUsuarios.get("tiago"));
+
     }
 }
 
