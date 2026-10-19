@@ -21,7 +21,7 @@ public class ExceptionsBasics {
             // Simulação da exception 'IndexOutOfBoundsException':
             System.out.println(nomes.get(1));
           // armazena a exception do tipo Exception na variável 'ex':
-        } catch (Exception ex) {
+        } catch (IndexOutOfBoundsException ex) {
             // Acessando o objeto para imprimir o mesmo relatório verboso:
             // ex.printStackTrace();
             // Tratando a exceção com um erro amigável:
