@@ -60,7 +60,7 @@ Conteúdo:
    
      - **Código 05**: [IoNotasEstudos.java](https://github.com/Motatom0101/curso-desenvolvimento-java/blob/main/src/io/IoNotasEstudos.java)
        
-     - **Código 06**: [StringNotasEstudo.java](https://github.com/Motatom0101/curso-desenvolvimento-java/blob/main/src/string/StringNotasEstudo.java)
+     - **Código 06**: [StringNotasEstudo.java](https://github.com/SamuraiQAction87/curso-desenvolvimento-java/blob/main/estrutura-programa-java/src/string/StringNotasEstudo.java)
 
 
 
