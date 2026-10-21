@@ -2,7 +2,7 @@
 ![Tux e Java](https://api.devicons.dev.br/icon?icons=Linux%2CJava%2CVSCode%2CIdea&size=48&theme=light&perline=30)
 #
 ### Orientação: 
-Neste repo estou documentando a construção do meu conhecimento em programação com Java, com base em alguns cursos e pesquisas complementares.
+Neste repo estou documentando a construção do meu conhecimento em programação com Java, com base em alguns cursos e pesquisas complementares. Aqui no README, vou disponibilizar e descrever a maioria dos códigos, trazendo alguns artigos do medium.   
 #
 #
 ## Desenvolvimento Java
