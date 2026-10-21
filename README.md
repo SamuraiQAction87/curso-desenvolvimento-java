@@ -105,7 +105,7 @@ Conteúdo:
      - **Função**: Entrando em **Estruturas de Decisão**, esse é o 1º código, no qual uso a **estrutura if** para **verificar se o usuário tem 18 anos ou mais**, para que possa conseguir comprar um ingresso para um evento. Também usaremos o **If Ternário**.
 #
 
-  - **Código 16**: [**Switch-Case: Checador de Notas**](https://github.com/QActions87/curso-desenvolvimento-java/blob/main/exercicios-conhecendo-a-base/src/estrutura_switch/ChecadorDeNotas.java)
+  - **Código 16**: [**Switch-Case: Checador de Notas**](https://github.com/SamuraiQAction87/curso-desenvolvimento-java/blob/main/exercicios-conhecendo-a-base/src/estrutura_switch/ChecadorDeNotas.java)
      - **Função**: Esta é outra possibilidade de **Estrutura de Decisão**. Porém, o **Switch** trabalha com a ideia de **avaliar o valor de uma variável**, **não uma expressão booleano**. Este programa verificará a nota que o usuário digitar e, de acordo com a nota, terá um output com feedback específico. 
 #
 
@@ -125,7 +125,7 @@ Conteúdo:
      - **Função**: Programa lê 2 números e o operador informado pelo usuário, para efetuar o cálculo conforme operação solicitada.
 #
 
-  - **Código 21**: [**If-Else: Calculator de IMC**](https://github.com/QActions87/curso-desenvolvimento-java/blob/main/exercicios-conhecendo-a-base/src/estruturas_if/CalculadoraIMC.java)
+  - **Código 21**: [**If-Else: Calculator de IMC**](https://github.com/SamuraiQAction87/curso-desenvolvimento-java/blob/f08647010240d0945ae3fc1c9d217ee15b016689/exercicios-conhecendo-a-base/src/estruturas_if/CalculadoraIMC.java#L4)
      - **Função**: Programa lê 2 valores: Peso e Altura, calcula o IMC e informa o resultant e a classificação em que o usuário se encontra.
 #
 
