@@ -121,7 +121,7 @@ Conteúdo:
      - **Função**: Programa lê 3 números e os imprime em ordem crescente.
 #
 
-  - **Código 20**: [**Switch-Case: Calculator**](https://github.com/QActions87/curso-desenvolvimento-java/blob/main/exercicios-conhecendo-a-base/src/estruturas_if/Calculator.java)
+  - **Código 20**: [**Switch-Case: Calculator**](https://github.com/SamuraiQAction87/curso-desenvolvimento-java/blob/main/exercicios-conhecendo-a-base/src/estruturas_if/Calculadora.java)
      - **Função**: Programa lê 2 números e o operador informado pelo usuário, para efetuar o cálculo conforme operação solicitada.
 #
 
