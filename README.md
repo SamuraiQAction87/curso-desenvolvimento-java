@@ -259,17 +259,17 @@ Conteúdo:
  - Igualdade entre Arrays;
  - Classe Utilitária.
 
-     - **Código 41**: [Matematica.java](https://github.com/QActions87/curso-desenvolvimento-java/blob/main/working-with-objects/src/Matematica.java)
+     - **Código 41**: [Matematica.java]([Matematica.java](https://github.com/SamuraiQAction87/curso-desenvolvimento-java/blob/main/working-with-objects/src/Matematica.java))
      
      - **Código 42**: [Main2.java](https://github.com/QActions87/curso-desenvolvimento-java/blob/main/working-with-objects/src/Main2.java)
      
      - **Código 43**: [ArrayNotasEstudos.java](https://github.com/QActions87/curso-desenvolvimento-java/blob/main/working-with-objects/src/ArrayNotasEstudos.java)
    
-     - **Código 44**: [Gato.java](https://github.com/QActions87/curso-desenvolvimento-java/blob/main/working-with-objects/src/Gato.java)
+     - **Código 44**: [Gato.java](https://github.com/SamuraiQAction87/curso-desenvolvimento-java/blob/main/working-with-objects/src/Gato.java)
      
      - **Código 45**: [ArrayNotasEstudosII.java](https://github.com/QActions87/curso-desenvolvimento-java/blob/main/working-with-objects/src/ArrayNotasEstudosII.java)
      
-     - **Código 46**: [ComparandoObjetos.java](https://github.com/QActions87/curso-desenvolvimento-java/blob/main/working-with-objects/src/ComparandoObjetos.java)
+     - **Código 46**: [ComparandoObjetos.java](https://github.com/SamuraiQAction87/curso-desenvolvimento-java/blob/main/working-with-objects/src/ComparandoObjetos.java)
    
 #
 #
