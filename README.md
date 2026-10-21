@@ -259,7 +259,7 @@ Conteúdo:
  - Igualdade entre Arrays;
  - Classe Utilitária.
 
-     - **Código 41**: [Matematica.java]([Matematica.java](https://github.com/SamuraiQAction87/curso-desenvolvimento-java/blob/main/working-with-objects/src/Matematica.java))
+     - **Código 41**: [Matematica.java](https://github.com/SamuraiQAction87/curso-desenvolvimento-java/blob/main/working-with-objects/src/Matematica.java)
      
      - **Código 42**: [Main2.java](https://github.com/QActions87/curso-desenvolvimento-java/blob/main/working-with-objects/src/Main2.java)
      
