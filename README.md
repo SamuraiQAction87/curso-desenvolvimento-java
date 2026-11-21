@@ -349,27 +349,27 @@ Por fim, criei métodos que representam os botões Power, Diminuir Volume e Aume
    A herança permite que uma classe filha (subclasse) reutilize atributos e comportamentos de uma classe pai (superclasse) por meio de extends, além de poder implementar contratos de interface (implements) e sobrescrever métodos (@Override) conforme a especialização de cada tipo.
 
    **Interface Avenger**: Define o contrato **isLeader()**, indicando se o herói atua como líder ou não:
- - [**Avenger.java**](https://github.com/SamuraiQAction87/curso-desenvolvimento-java/blob/main/principios-poo/src/heranca/Avenger.java)
+   - **Código 53**: [**Avenger.java**](https://github.com/SamuraiQAction87/curso-desenvolvimento-java/blob/main/principios-poo/src/heranca/Avenger.java)
 
 **Classe Abstrata SuperHeroi**: Funciona como a superclasse base da hierarquia e também implementa Avenger, fornecendo implementação padrão para isLeader() (false), o getter getTraje(), o construtor canônico (String traje, String[] superPoderes), um construtor padrão vazio e o método abstrato usarSuperPoder(int index), que obriga as subclasses a definirem como o poder é executado. Os atributos traje e superPoderes usam protected para ficarem acessíveis às subclasses:
 
- - [**SuperHeroi.java**](https://github.com/SamuraiQAction87/curso-desenvolvimento-java/blob/main/principios-poo/src/heranca/SuperHeroi.java)
+   - **Código 54**: [**SuperHeroi.java**](https://github.com/SamuraiQAction87/curso-desenvolvimento-java/blob/main/principios-poo/src/heranca/SuperHeroi.java)
 
 **Subclasses HomemDeFerro**, Tempestade e ViuvaNegra: Estendem SuperHeroi e implementam Avenger, repassando traje e superPoderes para o construtor da superclasse via super(traje, superPoderes) e implementando usarSuperPoder(int index). Em HomemDeFerro, o método isLeader() retorna true, enquanto em Tempestade e ViuvaNegra retorna false:
 
- - [**HomemDeFerro.java**](https://github.com/SamuraiQAction87/curso-desenvolvimento-java/blob/main/principios-poo/src/heranca/HomemDeFerro.java)
+   - **Código 55**: [**HomemDeFerro.java**](https://github.com/SamuraiQAction87/curso-desenvolvimento-java/blob/main/principios-poo/src/heranca/HomemDeFerro.java)
 
- - [**Tempestade.java**](https://github.com/SamuraiQAction87/curso-desenvolvimento-java/blob/main/principios-poo/src/heranca/Tempestade.java)
+   - **Código 56**: [**Tempestade.java**](https://github.com/SamuraiQAction87/curso-desenvolvimento-java/blob/main/principios-poo/src/heranca/Tempestade.java)
 
- - [**ViuvaNegra.java**](https://github.com/SamuraiQAction87/curso-desenvolvimento-java/blob/main/principios-poo/src/heranca/ViuvaNegra.java)
+   - **Código 57**: [**ViuvaNegra.java**](https://github.com/SamuraiQAction87/curso-desenvolvimento-java/blob/main/principios-poo/src/heranca/ViuvaNegra.java)
 
 **Classe HomemAranha**: Também **estende SuperHeroi e implementa Avenger**, sobrescrevendo usarSuperPoder(int index) e isLeader() (false), porém o construtor (String traje, String[] superPoderes) está com o corpo vazio (sem chamada explícita a **super(...)**), o que faz o compilador invocar o construtor padrão de SuperHeroi e deixa traje e superPoderes sem inicialização via construtor nesse caso:
 
-- [**HomemAranha.java**](https://github.com/SamuraiQAction87/curso-desenvolvimento-java/blob/main/principios-poo/src/heranca/HomemAranha.java)
+   - **Código 58**: [**HomemAranha.java**](https://github.com/SamuraiQAction87/curso-desenvolvimento-java/blob/main/principios-poo/src/heranca/HomemAranha.java)
 
 **Classe Main**: Contém o main e cria um array do tipo SuperHeroi[] **contendo instâncias** das subclasses (**HomemAranha, HomemDeFerro, Tempestade e ViuvaNegra**), mantendo comentada a tentativa de instanciar SuperHeroi diretamente por ser abstract. Em seguida, chama o método validar(superHerois) — que usa instanceof HomemAranha para verificar o tipo real do primeiro elemento — e percorre o array com for-each chamando getTraje() e usarSuperPoder(0) para cada herói:
 
-- [**Main.java**](https://github.com/SamuraiQAction87/curso-desenvolvimento-java/blob/main/principios-poo/src/heranca/Main.java)
+   - **Código 59**: [**Main.java**](https://github.com/SamuraiQAction87/curso-desenvolvimento-java/blob/main/principios-poo/src/heranca/Main.java)
 
 
 
