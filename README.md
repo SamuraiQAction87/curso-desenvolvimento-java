@@ -372,22 +372,34 @@ Por fim, criei métodos que representam os botões Power, Diminuir Volume e Aume
    - **Código 59**: [**Main.java**](https://github.com/SamuraiQAction87/curso-desenvolvimento-java/blob/main/principios-poo/src/heranca/Main.java)
 
 
+#
+### **POLIMORFISMO:**
+   #
+   O polimorfismo permite que um mesmo nome ou contrato assuma múltiplas formas: seja em tempo de compilação — por meio da sobrecarga de métodos (overload) e de generics — seja em tempo de execução — por meio de interfaces, sobrescrita (@Override) e casting quando há um comportamento específico de um tipo concreto.
 
+**Interface Trabalhador**: Define o contrato comum trabalhar(), permitindo que diferentes classes sejam tratadas de forma uniforme pelo mesmo tipo de referência:
+   - **Código 60**: [**Trabalhador.java**](https://github.com/SamuraiQAction87/curso-desenvolvimento-java/blob/main/principios-poo/src/polimorfismo/Trabalhador.java)
 
+**Classes Programador e Medico**: Implementam a interface Trabalhador e sobrescrevem o método trabalhar() com o comportamento específico de cada profissão:
+   - **Código 61**: [**Programador.java**](https://github.com/SamuraiQAction87/curso-desenvolvimento-java/blob/main/principios-poo/src/polimorfismo/Programador.java)
 
+   - **Código 62**: [**Medico.java**](https://github.com/SamuraiQAction87/curso-desenvolvimento-java/blob/main/principios-poo/src/polimorfismo/Medico.java)
 
+**Classe Cozinheiro**: Também implementa Trabalhador sobrescrevendo trabalhar(), mas adiciona um método próprio (temperarComida()) que não faz parte da interface:
 
+   - **Código 63**: [**Cozinheiro.java**](https://github.com/SamuraiQAction87/curso-desenvolvimento-java/blob/main/principios-poo/src/polimorfismo/Cozinheiro.java)
 
+**Classe Main**: Cria um array Trabalhador[] com instâncias de Programador, Cozinheiro e Medico e passa esse array para o método trabalhar(trabalhadores). Dentro do laço for-each, cada elemento executa trabalhar() polimorficamente; em seguida, o código verifica com instanceof Cozinheiro e faz casting explícito ((Cozinheiro) trabalhador).temperarComida() para chamar o método exclusivo do cozinheiro:
 
-   
-Loading...
+   - **Código 64**: [**Main.java**](https://github.com/SamuraiQAction87/curso-desenvolvimento-java/blob/main/principios-poo/src/polimorfismo/Main.java)
 
+**Classe Calculadora**: Demonstra polimorfismo estático (sobrecarga de métodos) no método soma, mantendo o mesmo nome mas variando os tipos de parâmetros (int e double), sendo invocado no main com valores inteiros e decimais:
 
+   - **Código 65**: [**Calculadora.java**](https://github.com/SamuraiQAction87/curso-desenvolvimento-java/blob/main/principios-poo/src/polimorfismo/Calculadora.java)
 
+**Classe ImpressaoGenerics**: Explora o método genérico <T> void imprimir(T[] trabalhadores) com Arrays.toString(...) para reutilizar a mesma assinatura de impressão com diferentes tipos de array (Trabalhador[], Integer[] e String[]):
 
-
-
-
+   - **Código 66**: [**ImpressaoGenerics.java**](https://github.com/SamuraiQAction87/curso-desenvolvimento-java/blob/main/principios-poo/src/polimorfismo/ImpressaoGenerics.java)
 
 
 
