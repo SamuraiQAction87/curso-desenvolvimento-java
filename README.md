@@ -147,6 +147,7 @@ Conteúdo:
 
   - **Código 26**: [**Jump Statement/continue: Contador de números pares**](https://github.com/QActions87/curso-desenvolvimento-java/blob/main/estrutura_repeticao/estrutura-repeticao/src/repeticao/JumpStatements.java)
      - **Função**: Programa que conta de 1 até 50, **imprimindo** apenas **os pares, passando um  Jump Statement 'continue' para pular os ímpares**.
+
 #
 #
 ## JUMP STATEMANT = BREAK / RETURN:
@@ -157,6 +158,7 @@ Conteúdo:
 
   - **Código 28**: [**Jump Statement/return: Parada por comando específico**](https://github.com/QActions87/curso-desenvolvimento-java/blob/main/estrutura_repeticao/estrutura-repeticao/src/repeticao/JumpStatementsIII.java)
      - **Função**: Exemplo de uso do Jump Statement "**return**" para **encerrar um loop quando o usuário digitar uma opção específica** (**0** neste caso).
+
 #
 #
 ## ARRAYS / ARRAYS MULTIDIMENSIONAIS = Propriedade LENGTH / FOR & FOREACH:
@@ -186,6 +188,7 @@ Por fim, comentei o código, da parte onde acessei e modifiquei os elementos at�
 
   - **Código 34**: [**Array: Comparando Arrays de Numeros**](https://github.com/QActions87/Fundamentos_java/blob/main/src/ComparandoArraysNumeros.java)
      - **Função**: Programa compara 2 arrays criados pelo user, retornando os numeros em comum entre ambos.
+
 #
 #
 ## PROGRAMAÇÃO ORIENTADA A OBJETOS:
@@ -299,6 +302,7 @@ Conteúdo:
 
 
 #
+#
 ### **ENCAPSULAMENTO:**
    #
    O encapsulamento consiste em agrupar dados e comportamentos em uma mesma classe, protegendo o acesso direto ao estado interno e permitindo modificações apenas de forma controlada e segura.
@@ -372,6 +376,7 @@ Por fim, criei métodos que representam os botões Power, Diminuir Volume e Aume
    - **Código 59**: [**Main.java**](https://github.com/SamuraiQAction87/curso-desenvolvimento-java/blob/main/principios-poo/src/heranca/Main.java)
 
 
+#
 #
 ### **POLIMORFISMO:**
    #
